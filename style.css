@@ -1,0 +1,59 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Karla', Verdana, Geneva, Tahoma, sans-serif;
+    background: url('./1f6cb67e88cff2e5b8586cf35178ec99.jpg') no-repeat;
+    background-size:cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    margin-inline:auto ;
+}
+h1{
+    font-size: 3rem;
+    text-align: center;
+    color: hsl(160, 77%, 88%);
+}
+section{
+    width: 90%;
+    margin-inline:auto ;
+    margin-top: 1em;
+    text-align: center;
+    color: hsl(160, 77%, 88%);
+    line-height: 1.7;
+}
+section .ID{
+    margin-block: 1em;
+    font-size: 2rem;
+}
+section .behold{
+    margin-block: 1.6em;
+    font-size: 1.4rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6em;
+}
+ul li{
+    list-style-type: none;
+}
+li a{
+    color: hsl(160, 77%, 88%);
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    width: 38%;
+    max-width: 130px;
+    padding-inline: .6em;
+    padding-block: .6em;
+    margin-inline:auto;
+}
